@@ -1,0 +1,193 @@
+html, body{
+    font-family: Helvetica, Arial, sans-serif;
+    margin:0;
+    font-size:10px;
+    width:100%;
+    background-color: #002;
+}
+input[type='submit'] {
+	padding:0 5px;
+    height:25px;
+    margin:0 !important;
+}
+.container{
+    width:98%;
+    margin-left:1%;
+}
+.tabela_menus{
+    position:relative;
+    width:100%;
+    margin:0 auto; 
+}
+.tabela_exibicao{
+    position:relative;
+    width:98%;
+    margin:0 auto;
+}
+.tabela1{
+    background-color: #d4b44b;
+    padding:5px; 
+}
+.tabela2{
+    background-color: #eecf6b; 
+    padding:5px;
+}
+.tabela3{
+    background-color:#f1de9f; 
+    padding:5px;
+    margin:1%;
+}
+
+.tabela4{
+    background-color: #e7ddba; 
+    padding:5px;
+}
+.tabela5{
+    background-color: #dff3a9; 
+    padding:5px;
+}
+.funcoes{
+    background-color: #f7d5a9; 
+    padding:5px;
+}
+
+.tdCenter{
+    text-align:center;
+}
+.tabela_menus tr:nth-child(odd){
+    background-color: #ffc;
+}
+.tabela_menus tr:nth-child(even){
+    background-color: #ffa;
+}
+
+.botao{
+    border:solid 1px #999;
+  
+    height:25px;
+    padding:1px 6px;
+    background:#bbb;
+    cursor:pointer;
+    text-transform:uppercase;
+    font-weight:bold;
+    font-size:12px;
+    color:#000;
+    border-radius:4px;
+     transition: 0.3s;
+}
+.botao:hover{
+ /* background: rgba(255,255,170, 0.5);/* equivale a #ffa*/
+    background:#ffa;
+    transition: 0.3s;
+}
+
+.cadastro{
+    background:lightgreen;
+}
+.but-azul{
+    background:lightblue;
+    padding:4px;
+}
+.but-vermelho{
+    background:pink;
+    padding:4px;
+}
+a{
+    text-decoration:none;
+    color:#000;
+}
+th, table{
+    border:none;
+    font-size:12px;
+}
+th{
+    text-align:left;
+}
+.tabela_menus td{
+    border-color:#f1de9f;
+    padding:5px;
+}
+
+.OS{
+    width:200px;  
+  
+}
+.nome-form{
+    width:98.5%;
+}
+.endereco-form{
+    width:99.3%;
+}
+.telefone-form{
+    width:97%;
+}
+
+#verifica{
+    visibility:hidden;
+}
+.nc{
+    visibility:hidden; 
+}
+.pesquisa{
+    position:relative;
+    
+    background:#ffa;
+    width:99%;
+   padding:0 5px 8px 5px;
+    border:solid 1px #ffa;
+    
+}
+#div_formulario, #div_formulario2, #div_formulario5{
+    display:none;
+    border-bottom:solid 1px #f1de9f;
+    background:#f1de9f;
+    
+}
+#cpf, #cpfbusca{
+    width:20%;
+}
+.nomeCPF{
+    position:relative;
+   left:40%; 
+}
+ #buscaCad{
+    width:65%;
+}
+
+.textarea_material {
+    resize:none; 
+    width:99.5%;
+}
+.titulo{
+width:99.3%;
+background:green;
+color:white;
+text-align:center;
+font-size:14px;
+text-transform: uppercase;
+font-weight:bold;
+padding:5px;
+}
+#buscaCadastro{
+margin-left:70%;
+margin-top:-25px;
+}
+.texto{
+float:right;
+margin-right:17%;
+margin-top:-36px;
+}
+
+.orcamento{
+    width:46%;
+}
+#novoAparelho, #novaMarca, #modelo, #numeroSerie{
+    text-transform: uppercase;
+}
+.flex{
+    display:flex;
+   border:none;
+    justify-content:space-between;
+    background-color:#ffa;
+}
+
