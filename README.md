@@ -8,4 +8,6 @@ Feito em PHP procedural, "não usa classes",
 para uma compreensão melhor do funcionamento.
 Integração com o banco MySQL usando mysqli.
 
+Após descompactar, renomei a pasta para: inner_join_mysql_tres_tabelas
+
 
